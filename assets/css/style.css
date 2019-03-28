@@ -1,0 +1,19 @@
+.whitebg {
+    border: 1px solid #ffffff;
+}
+.underlink {
+    text-decoration: underline;
+}
+#logoimage {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}  
+
+@media only screen and (max-width: 767px) {
+    #logoimage {
+        max-width: 50%;
+        height: auto;
+        margin: auto;
+    }      
+  }
